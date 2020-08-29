@@ -1,0 +1,48 @@
+html,body{
+    margin: 0;
+    text-align: center;
+}
+
+#imagem_fundo{
+   background-image: url(Img/coral\ amarelo.jpg);
+   background-size: cover;
+   height: 55%; 
+   padding: 100px;
+   
+}
+
+#titulo{
+    color: black;
+    padding-top: 0%;
+    margin: 0;
+    font-size: 320%;
+    
+}
+
+#subtitulo{
+    color: white;
+    font-size: 200%;
+    font-weight: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: white solid;
+}
+
+#acao{
+   color: white;
+   border: 2px white solid;
+   border-radius: 10px;
+   padding: 10px 20px 10px 20px;
+   font-size: 20px;
+   text-decoration: none; 
+
+}
+
+.letras{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+   
