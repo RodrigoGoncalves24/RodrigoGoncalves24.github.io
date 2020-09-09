@@ -146,12 +146,11 @@ img{
     padding-top: 50px;
     float: left;
     padding: 0 5%;
-   
     position: relative;/*posição do elemento (div)., vai variar, com base no elemnto que vem anteriormente, (div ao lado esquerdo)*/
 }
 
 .dois{
-    width: 40%;
+    width: 39%;
     padding-top: 50px;
     
 }
@@ -172,13 +171,18 @@ img{
     border-radius: 50px;
 }
 
+.Creditos{
+    width: 20%;
+    margin-left: 40px;
+}
+
 .contato{
-   list-style: none;
     margin-top: 1px;
-    float: center;
-    width: 60px;
+    width: 45px;
+
 
 }
+
 footer{
     background-color: black;
     color:white;
