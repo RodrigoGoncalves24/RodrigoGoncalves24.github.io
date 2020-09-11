@@ -1,0 +1,256 @@
+html,body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #489DC1; /*pegar uma cor melhor*/
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 60;
+}
+
+#logo img{
+    width: 50px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 13px;
+}
+
+#menu{
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 30px;
+    list-style: none;
+
+}
+
+li{
+    float: left;
+    padding: 20px 20px 22px 20px;
+   
+}
+
+li:hover{
+   background-color: rgba(60, 101, 189, 0.651);
+ /*pegar uma cor melhor*/
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+#imagem_fundo{
+   background-image: url(img/Amarelo2.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   height: 80%; 
+   padding: 10px;
+   text-align: center;
+}
+
+#titulo{
+    color: black;
+    padding-top: 0%;
+    text-shadow: 2px 2px 8px #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 10%;
+    margin: 0;
+    font-size: 420%;
+}
+
+#subtitulo{
+  
+    color: black;
+    font-size: 150%;
+    font-weight: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px white solid;
+}
+
+#acao{
+    color: black;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none; 
+ 
+ }
+
+ .icone{
+    width: 60px;
+ }      
+
+ .bg1{
+    background-color:  rgba(255, 255, 255, 0.473);
+    height: 410px;
+    color: black;
+}
+
+.bg2{
+   background-color:  rgba(255, 255, 255, 0.473);
+   height: 410px;
+   color: black;
+}
+
+.bg3{
+   background-color:  rgba(255, 255, 255, 0.473);
+    height: 410px;
+    color: black;
+    
+}
+ 
+ .destaque{
+    background-color: #d9c7c562;
+    
+}
+
+section{
+    padding: 20px;
+    float: left;
+    text-align: center;
+}
+
+.imgeco{
+    width: 80%;
+    border: 1px
+     black solid;
+}
+
+#acao:hover{
+ background-color: #4284A1;
+ font-weight: 545;
+ 
+}
+
+.imgdestaque{
+  background-image: url(img/Amarelo.jpg );
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.icone:hover{
+    background-color: rgba(0, 0,225, 0.281);
+    border-radius: 14px;
+}
+
+
+
+/*.letras{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+}*/
+
+
+img:hover{
+    transform: scale(1.022);
+}
+
+img{
+    transition: 500ms;
+}
+
+.coluna{
+    padding-top: 40px;
+    float: left;
+    padding: 0 5%;
+    position: relative;/*posição do elemento (div)., vai variar, com base no elemnto que vem anteriormente, (div ao lado esquerdo)*/
+}
+
+.dois{
+    width: 40%;
+    padding-top: 20px;
+    
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+    padding-top: 45px;
+    
+}
+
+.quatro{
+    width: 15%;
+    padding-top: 50px;
+}
+
+#sobre img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.Creditos{
+    width: 20%;
+    margin-left: 40px;
+}
+
+.contato{
+    margin-top: 1px;
+    width: 45px;
+
+
+}
+
+footer{
+    background-color: #489DC1;
+    color:white;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#objetivos{
+    padding-top: 50px;
+}
+
+.topoeco{
+    padding-top: 4%;
+    
+    
+}
+/*observar o tamanho da tela e fazer a adaptações  de acordo com as especificação*/
+@media all and (max-width: 708px){
+    #menu{
+        visibility: hidden;
+    }
+
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 20px auto;
+        float: none;
+    }
+
+    #logo{
+        text-align: center;
+    }
+
+    #logo img{
+        margin-right: 0px;
+        position: relative;
+    }
+
+    #titlo{
+        padding-top: 20%;
+    }
+
+    #subtitulo{
+        font-size: 120%;
+        margin-left: 3%;
+        margin-right: 3%;
+            }
+
+}
